@@ -49,10 +49,10 @@
     let audio = new Audio("https://f.top4top.io/m_29113ioqe1.mp3");
 
     yes.addEventListener("click", () => {
-        audio.pause(); // Menghentikan lagu sebelumnya
-        audio = new Audio("https://d.top4top.io/m_2891h293f1.mp3"); // Memuat lagu baru
-        audio.play(); // Memutar lagu baru
-        question.innerHTML = "Call me in WhatsApp oke";
+        audio.pause();
+        audio = new Audio("https://d.top4top.io/m_2891h293f1.mp3");
+        audio.play();
+        question.innerHTML = "Let's go out tomorrow night. If u want, u can let me know on WhatsApp🫶🏻";
         heart.src = "foto/-1.gif";
         yes.classList.add("hidden");
         no.classList.add("hidden");
@@ -86,9 +86,9 @@
             question.innerHTML = "Okay bye, you don't deserve me";
             question.style.color = "red";
             heart.src = "foto/8.gif";
-            audio.pause(); // Menghentikan lagu saat ini jika sedang bermain
-            audio = new Audio("https://f.top4top.io/m_29113ioqe1.mp3"); // Memuat lagu "NO"
-            audio.play(); // Memutar lagu "NO"
+            audio.pause();
+            audio = new Audio("https://f.top4top.io/m_29113ioqe1.mp3");
+            audio.play();
         }
     });
 </script>
