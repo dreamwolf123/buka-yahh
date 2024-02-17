@@ -37,7 +37,7 @@
 </head>
 <body>
 	<img id="heart" src="foto/0.gif" alt="Heart">
-	<h1 id="question">Will u be my lover?</h1>
+	<h1 id="question">Will u be my rose affinity in Mobile Legend??</h1>
 	<button id="yes">YES</button>
 	<button id="no">NO</button>
 
@@ -52,23 +52,23 @@
         audio.pause();
         audio = new Audio("https://b.top4top.io/m_2963ax8hk1.mp3");
         audio.play();
-        question.innerHTML = "Would you like to go out together on Sunday night? If u want, u can let me know on WhatsApp🫶🏻";
+        question.innerHTML = "If you want to be my rose affinity, let me know on WhatsApp, okyyy🫶🏻";
         heart.src = "foto/-1.gif";
         yes.classList.add("hidden");
         no.classList.add("hidden");
     });
 
     no.addEventListener("click", () => {
-        if (question.innerHTML === "Will u be my lover?") {
+        if (question.innerHTML === "Will u be my rose affinity in Mobile Legend??") {
             question.innerHTML = "Think it again";
             heart.src = "foto/6.gif";
         } else if (question.innerHTML === "Think it again") {
-            question.innerHTML = "Please be my loveee!";
+            question.innerHTML = "Please be my rose affinityyy!";
             heart.src = "foto/2.gif";
-        } else if (question.innerHTML === "Please be my loveee!") {
-            question.innerHTML = "Please, i'll give you gift";
+        } else if (question.innerHTML === "Please be my rose affinityyy!") {
+            question.innerHTML = "Please, i'll give you loyalty to u";
             heart.src = "foto/3.gif";
-        } else if (question.innerHTML === "Please, i'll give you gift") {
+        } else if (question.innerHTML === "Please, i'll give you loyalty to u") {
             question.innerHTML = "Listen to me";
             heart.src = "foto/4.gif";
         } else if (question.innerHTML === "Listen to me") {
@@ -83,7 +83,7 @@
         } else if (question.innerHTML === "I am asking last time") {
             yes.classList.add("hidden");
             no.classList.add("hidden");
-            question.innerHTML = "Okay bye, you don't deserve me";
+            question.innerHTML = "Okay bye, forget this u don't deserve me:)";
             question.style.color = "red";
             heart.src = "foto/8.gif";
             audio.pause();
